@@ -15,3 +15,10 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = 'default'
 end
+def f(x)
+  if x > 5
+      puts x
+  else 
+  end
+end
+f(4)
